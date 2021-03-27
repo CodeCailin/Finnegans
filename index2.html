@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html lang="en">
+   <head>
+      <title>Finnegan's Restaurant </title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="external.css">
+		
+
+		
+   </head>
+  
+   <body>
+   <h1>Finnegan's Restaurant</h1>
+    
+ 
+ 
+ <form id="form_id" method="post" name="myform">
+   <table>
+   <tr>
+     <td><label>Username :</label></td>
+   </tr>
+   <tr>
+     <td><input type="text" name="username" id="username"/></td>
+   </tr>
+    <tr>
+     <td><label>Password :</label></td>
+   </tr>
+   <tr>
+     <td><input type="password" name="password" id="password"/></td>
+   </tr>
+   <tr>
+     <td><input type="button" value="Login" id="submit" onclick="passwordLength()"/> </td>
+   </tr>
+     </table>
+</form>
+ 
+ 
+     
+<--Burger menus-->
+
+ <div id="discount">
+ Discount: <span>0.10</span>
+ </div>
+ <select name="burger" class="form-control form-control-lg">
+    <option value="10">1</option>
+    <option value="20">2</option>
+    <option value="30">3</option>
+    <option value="40">4</option>
+  </select>
+  
+  <button type="button" id="order" value="submit" >
+  Submit
+  </button>
+  
+  <div id="grandTotal">
+  Total: <span></span>
+  </div>
+  
+  
+  <--Burger menus-->
+  
+  
+	
+	
+	
+	
+	<script src="JavaScriptFunctions2.js">
+		passwordLength()	
+		</script>	
+   </body>
+</html>
